@@ -2,7 +2,7 @@
   <v-app id="app">
     <Header/>
     <h1>This is app.vue</h1>
-    <p>{{ message }}</p>
+    <!-- <p>{{ message }}</p> -->
     <Top/>
   </v-app>
 </template>
@@ -14,7 +14,7 @@ import Top from "./components/Top";
 export default {
   data: function () {
     return {
-      message: "Hello Vue!"
+      // message: "Hello Vue!"
     }
   },
   components: {
